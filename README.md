@@ -1,7 +1,7 @@
 <p align="center">
-  </p>
+</p>
 
-<h1 align="center">zhangluka</h1>
+<h1 align="center">zhangluka (bobby)</h1>
 
 <p align="center">
   <strong>AI 应用场景探索者</strong> —— 关注 AI 在真实业务中的落地，不只是 Demo。
@@ -15,30 +15,39 @@
 
 ---
 
-## 🚀 我在探索的方向
+## 🚀 我在做什么
+
+### OpenSpec · 人和 AI 的协作契约
+
+基于 Fission-AI/OpenSpec 做团队内化定制，增加 agent 适配层、工作流模板和代码审查集成。Spec 是驱动开发的单点可信源——AI 负责执行，人负责判断。
+
+[![GitHub](https://img.shields.io/badge/仓库-181717?logo=github&logoColor=white)](https://github.com/zhangluka/OpenSpec)
+
+---
+
+### Ralph Loop · 自动化的变更执行
+
+扫描 OpenSpec changes，自动识别可执行的变更，调用 Agent 完成编码。"需求 → Spec → 代码"的闭环真正跑起来。目前以 npm 包形式发布。
+
+[![GitHub](https://img.shields.io/badge/仓库-181717?logo=github&logoColor=white)](https://github.com/zhangluka/ralph_npm)
+
+---
 
 ### Harness Engineering · 让 AI 代码真正可交付
 
-AI 写代码很快，但入库率很低。我在自己的 Nest.js 项目里用 OpenSpec + Ralph Loop 把 AI 代码一次性通过率从 **30% 提到 75%**，记录这套方法的工程化落地。
+AI 写代码很快，但入库率很低。我在自己的 Nest.js 项目里用 OpenSpec + Ralph Loop 把 AI 代码一次性通过率从 **30% 提到 75%**，记录这套方法论的工程化落地。
 
 [![GitHub](https://img.shields.io/badge/查看仓库-181717?logo=github&logoColor=white)](https://github.com/zhangluka/harness_engineering)
 [![Docs](https://img.shields.io/badge/文档站点-4285F4?logo=google-chrome&logoColor=white)](https://zhangluka.github.io/harness_engineering/)
 
 ---
 
-### OpenSpec 内化版 · 人和 AI 的协作契约
+### china-travel-guide · 面向外国游客的英文中国旅行指南
 
-基于 OpenSpec 做团队内化定制，增加 agent 适配层、工作流模板、代码审查集成。让 Spec 成为驱动开发的单点可信源。
+用 Next.js 15 + Tailwind CSS 4 + MDX 构建的静态站点，目标用户是来华外国自由行游客。AI 生成内容占比 > 90%，22 个城市/主题页面，部署在 Cloudflare Pages。
 
-[![GitHub](https://img.shields.io/badge/查看仓库-181717?logo=github&logoColor=white)](https://github.com/zhangluka/OpenSpec)
-
----
-
-### Ralph · 自动化的变更执行
-
-扫描 OpenSpec changes，自动识别可执行的变更，调用 agent 完成编码。让"需求 → 代码"的闭环真正跑起来。
-
-[![GitHub](https://img.shields.io/badge/查看仓库-181717?logo=github&logoColor=white)](https://github.com/zhangluka/ralph_npm)
+[![GitHub](https://img.shields.io/badge/仓库-181717?logo=github&logoColor=white)](https://github.com/zhangluka/china-travel-guide)
+[![网站](https://img.shields.io/badge/chinabound.online-10B981?logo=globe&logoColor=white)](https://chinabound.online)
 
 ---
 
@@ -54,10 +63,10 @@ AI 写代码很快，但入库率很低。我在自己的 Nest.js 项目里用 O
 
 ## 📮 找到我
 
-[推特](https://x.com/grainrain_young) · [邮件](zhangluuka@gmail.com)
+[推特](https://x.com/grainrain_young) · [邮件](zhangluka@gmail.com)
 
 ---
 
 <p align="center">
-  <i>如果你也在探索 AI 的真实应用场景，不管是代码生成、内容创作、数据分析还是别的什么，欢迎来交流。</i>
+  <i>如果你也在探索 AI 的真实应用场景，不管是代码生成、内容创作还是别的什么，欢迎来交流。</i>
 </p>
