@@ -17,6 +17,16 @@
 
 ## 🚀 我在做什么
 
+### hermes-skill-audit · Hermes Agent 技能审计工具
+
+Hermes Agent 会在每条消息中加载所有已安装的 skills，导致 token 浪费。110+ skills 每轮消耗 ~300K tokens。这个工具可以检测重复、估算 token、追踪使用频率、自动清理。
+
+我在 10 小时内烧掉 6000 万 Credits 后，发现了这个问题，于是构建了这个工具。
+
+[![GitHub](https://img.shields.io/badge/仓库-181717?logo=github&logoColor=white)](https://github.com/zhangluka/hermes-skill-audit)
+
+---
+
 ### OpenSpec · 人和 AI 的协作契约
 
 基于 Fission-AI/OpenSpec 做团队内化定制，增加 agent 适配层、工作流模板和代码审查集成。Spec 是驱动开发的单点可信源——AI 负责执行，人负责判断。
