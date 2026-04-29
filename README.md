@@ -17,6 +17,15 @@
 
 ## 🚀 我在做什么
 
+### claude-super-evolution · Claude Code 自我进化框架
+
+Claude Code 很强，但每次会话结束就"失忆"——不会从经验中学习，下次可能犯同样的错误。这个项目借鉴 Hermes Agent 的设计哲学，用 Claude Code 现有的原语（Hooks、Cron、Memory、Skills）搭建了一个外挂式自我进化闭环：执行任务 → 评估结果 → 提取经验 → 更新策略 → 下次更好。
+
+[![GitHub](https://img.shields.io/badge/仓库-181717?logo=github&logoColor=white)](https://github.com/zhangluka/claude-super-evolution)
+
+---
+
+
 ### hermes-skill-audit · Hermes Agent 技能审计工具
 
 Hermes Agent 会在每条消息中加载所有已安装的 skills，导致 token 浪费。110+ skills 每轮消耗 ~300K tokens。这个工具可以检测重复、估算 token、追踪使用频率、自动清理。
@@ -54,7 +63,7 @@ AI 写代码很快，但入库率很低。我在自己的 Nest.js 项目里用 O
 
 ### china-travel-guide · 面向外国游客的英文中国旅行指南
 
-用 Next.js 15 + Tailwind CSS 4 + MDX 构建的静态站点，目标用户是来华外国自由行游客。AI 生成内容占比 > 90%，22 个城市/主题页面，部署在 Cloudflare Pages。
+用 Next.js 15 + Tailwind CSS 4 + MDX 构建的静态站点，目标用户是来华外国自由行游客。22 个城市/主题页面，部署在 Cloudflare Pages。
 
 [![GitHub](https://img.shields.io/badge/仓库-181717?logo=github&logoColor=white)](https://github.com/zhangluka/china-travel-guide)
 [![网站](https://img.shields.io/badge/chinabound.online-10B981?logo=globe&logoColor=white)](https://chinabound.online)
