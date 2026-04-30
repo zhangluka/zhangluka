@@ -25,6 +25,13 @@ Claude Code 很强，但每次会话结束就"失忆"——不会从经验中学
 
 ---
 
+### skills · Claude Code 个人技能库
+
+写了这么多方法论，最终要落到日常使用上。这个仓库是我的 Claude Code 技能工具箱——5 个自用 skill，覆盖三类场景：写作风格（小约翰可汗体、谷雨公众号、博客体）、内容创作工作流、开发工具（临时文件清理、项目模板生成）。每个 skill 一个 SKILL.md，`/skill-name` 直接调用。
+
+[![GitHub](https://img.shields.io/badge/仓库-181717?logo=github&logoColor=white)](https://github.com/zhangluka/skills)
+
+---
 
 ### hermes-skill-audit · Hermes Agent 技能审计工具
 
