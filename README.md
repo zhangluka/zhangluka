@@ -17,6 +17,14 @@
 
 ## 🚀 我在做什么
 
+### handoff · AI 编程 Agent 的上下文接力
+
+每次在 Claude Code 和 Cursor 之间切换，新 Agent 什么都不知道——你得重新解释项目结构、技术决策、当前进度。Handoff 解决这个问题：一条命令，自动从 Claude Code 的 session 日志提取关键信息，注入到 Cursor 的规则文件里。Cursor 开口就知道你之前做了什么。纯规则提取，不需要 LLM，零成本。
+
+[![GitHub](https://img.shields.io/badge/仓库-181717?logo=github&logoColor=white)](https://github.com/zhangluka/handoff)
+
+---
+
 ### claude-super-evolution · Claude Code 自我进化框架
 
 Claude Code 很强，但每次会话结束就"失忆"——不会从经验中学习，下次可能犯同样的错误。这个项目借鉴 Hermes Agent 的设计哲学，用 Claude Code 现有的原语（Hooks、Cron、Memory、Skills）搭建了一个外挂式自我进化闭环：执行任务 → 评估结果 → 提取经验 → 更新策略 → 下次更好。
