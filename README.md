@@ -70,7 +70,7 @@ AI 写代码很快，但入库率很低。我在自己的 Nest.js 项目里用 O
 
 ### china-travel-guide · 面向外国游客的英文中国旅行指南
 
-用 Next.js 15 + Tailwind CSS 4 + MDX 构建的静态站点，目标用户是来华外国自由行游客。22 个城市/主题页面，部署在 Cloudflare Pages。
+用 Next.js 15 + Tailwind CSS 4 + MDX 构建的 SEO 优化静态站点，目标用户是来华外国自由行游客。覆盖 7 座城市（成都、北京、上海、重庆、西安、张家界、桂林）共 52 个城市详情页、16 篇生存指南（支付宝/微信/火车/预算/签证等）、2 条行程规划（10天/2周）、3 篇小众中国攻略、3 篇城市对比文章，合计 76 个内容页面。基于 Google/YouTube 搜索热词数据驱动内容规划，部署在 Cloudflare Pages。
 
 [![GitHub](https://img.shields.io/badge/仓库-181717?logo=github&logoColor=white)](https://github.com/zhangluka/china-travel-guide)
 [![网站](https://img.shields.io/badge/chinabound.online-10B981?logo=globe&logoColor=white)](https://chinabound.online)
