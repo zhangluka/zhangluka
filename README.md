@@ -1,106 +1,117 @@
-<p align="center">
-</p>
+<div align="center">
 
-<h1 align="center">zhangluka (bobby)</h1>
+<img src="https://img.shields.io/badge/-%20-141413?style=flat&labelColor=141413" height="4" width="200">
 
-<p align="center">
-  <strong>AI 应用场景探索者</strong> —— 关注 AI 在真实业务中的落地，不只是 Demo。
-</p>
+<br>
 
-<p align="center">
-  从 <strong>Harness Engineering</strong> 到 <strong>Spec-Driven Development</strong>，<br>
-  我在找那些<strong>能让 AI 从"能用"变成"好用"</strong>的关键环节。<br>
-  相信好的 AI 应用不是调出来的，是设计出来的。
-</p>
+### Bobby
 
----
+<img src="https://img.shields.io/badge/AI%20%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF%E6%8E%A2%E7%B4%A2%E8%80%85-d97757?style=flat-square&labelColor=141413&color=d97757" alt="AI 应用场景探索者">
 
-## 🚀 我在做什么
+<br>
 
-### handoff · AI 编程 Agent 的上下文接力
+<img src="https://img.shields.io/badge/-%20-141413?style=flat&labelColor=141413" height="1" width="400">
 
-每次在 Claude Code 和 Cursor 之间切换，新 Agent 什么都不知道——你得重新解释项目结构、技术决策、当前进度。Handoff 解决这个问题：一条命令，自动从 Claude Code 的 session 日志提取关键信息，注入到 Cursor 的规则文件里。Cursor 开口就知道你之前做了什么。纯规则提取，不需要 LLM，零成本。
+</div>
 
-[![GitHub](https://img.shields.io/badge/仓库-181717?logo=github&logoColor=white)](https://github.com/zhangluka/handoff)
+<br>
 
----
+<div align="center">
+<table>
+<tr>
+<td align="center" width="500">
 
-### claude-super-evolution · Claude Code 自我进化框架
+**从 Spec-Driven Development 到 Harness Engineering ，**
+**我在寻找那些能让 AI 从「能用」走向「好用」的关键环节。**
 
-Claude Code 很强，但每次会话结束就"失忆"——不会从经验中学习，下次可能犯同样的错误。这个项目借鉴 Hermes Agent 的设计哲学，用 Claude Code 现有的原语（Hooks、Cron、Memory、Skills）搭建了一个外挂式自我进化闭环：执行任务 → 评估结果 → 提取经验 → 更新策略 → 下次更好。
+> 好的 AI 应用不是调出来的，是设计出来的。
 
-[![GitHub](https://img.shields.io/badge/仓库-181717?logo=github&logoColor=white)](https://github.com/zhangluka/claude-super-evolution)
+</td>
+</tr>
+</table>
+</div>
 
----
+<br>
 
-### skills · Claude Code 个人技能库
+<div align="center">
+<img src="https://img.shields.io/badge/-%20-141413?style=flat&labelColor=141413" height="1" width="600">
+</div>
 
-写了这么多方法论，最终要落到日常使用上。这个仓库是我的 Claude Code 技能工具箱——5 个自用 skill，覆盖三类场景：写作风格（小约翰可汗体、谷雨公众号、博客体）、内容创作工作流、开发工具（临时文件清理、项目模板生成）。每个 skill 一个 SKILL.md，`/skill-name` 直接调用。
+<br>
 
-[![GitHub](https://img.shields.io/badge/仓库-181717?logo=github&logoColor=white)](https://github.com/zhangluka/skills)
+当行业还在讨论 prompt 怎么写的时候，第三个阶段的问题已经浮现：**AI 写的代码能不能上线？**
 
----
+Spec-Driven Development 是我的方法论——用规格约束 AI，而不是靠 prompt 猜。Harness Engineering 是这套方法论在生产环境中的验证——**AI 代码的生产率不是调参调出来的，是流程设计出来的。**
 
-### hermes-skill-audit · Hermes Agent 技能审计工具
+<br>
 
-Hermes Agent 会在每条消息中加载所有已安装的 skills，导致 token 浪费。110+ skills 每轮消耗 ~300K tokens。这个工具可以检测重复、估算 token、追踪使用频率、自动清理。
+<div align="center">
+<img src="https://img.shields.io/badge/-%20-141413?style=flat&labelColor=141413" height="1" width="600">
+</div>
 
-我在 10 小时内烧掉 6000 万 Credits 后，发现了这个问题，于是构建了这个工具。
+<br>
 
-[![GitHub](https://img.shields.io/badge/仓库-181717?logo=github&logoColor=white)](https://github.com/zhangluka/hermes-skill-audit)
+<div align="center">
 
----
+### Core Directions
 
-### OpenSpec · 人和 AI 的协作契约
+</div>
 
-基于 Fission-AI/OpenSpec 做团队内化定制，增加 agent 适配层、工作流模板和代码审查集成。Spec 是驱动开发的单点可信源——AI 负责执行，人负责判断。
+<table>
+<tr>
+<td width="50%" valign="top">
 
-[![GitHub](https://img.shields.io/badge/仓库-181717?logo=github&logoColor=white)](https://github.com/zhangluka/OpenSpec)
+**Spec-Driven Development**
 
----
+用规格驱动 AI 编码，建立人机协作的工程范式。
 
-### Ralph Loop · 自动化的变更执行
+[OpenSpec](https://github.com/zhangluka/OpenSpec) · [SDD](https://github.com/zhangluka/SDD) · [ph_ralph](https://github.com/zhangluka/ph_ralph) · [ralph_npm](https://github.com/zhangluka/ralph_npm)
 
-扫描 OpenSpec changes，自动识别可执行的变更，调用 Agent 完成编码。"需求 → Spec → 代码"的闭环真正跑起来。目前以 npm 包形式发布。
+</td>
+<td width="50%" valign="top">
 
-[![GitHub](https://img.shields.io/badge/仓库-181717?logo=github&logoColor=white)](https://github.com/zhangluka/ralph_npm)
+**Harness Engineering**
 
----
+AI 代码从「能跑」到「能上线」，正在实战中摸索这条路径。
 
-### Harness Engineering · 让 AI 代码真正可交付
+[harness_engineering](https://github.com/zhangluka/harness_engineering)
 
-AI 写代码很快，但入库率很低。我在自己的 Nest.js 项目里用 OpenSpec + Ralph Loop 把 AI 代码一次性通过率从 **30% 提到 75%**，记录这套方法论的工程化落地。
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-[![GitHub](https://img.shields.io/badge/查看仓库-181717?logo=github&logoColor=white)](https://github.com/zhangluka/harness_engineering)
-[![Docs](https://img.shields.io/badge/文档站点-4285F4?logo=google-chrome&logoColor=white)](https://zhangluka.github.io/harness_engineering/)
+**Agent Self-Evolution**
 
----
+让 AI Agent 具备从经验中自我进化的能力。
 
-### china-travel-guide · 面向外国游客的英文中国旅行指南
+[claude-super-evolution](https://github.com/zhangluka/claude-super-evolution) · [hermes-skill-audit](https://github.com/zhangluka/hermes-skill-audit) · [handoff](https://github.com/zhangluka/handoff)
 
-用 Next.js 15 + Tailwind CSS 4 + MDX 构建的 SEO 优化静态站点，目标用户是来华外国自由行游客。覆盖 7 座城市（成都、北京、上海、重庆、西安、张家界、桂林）共 52 个城市详情页、16 篇生存指南（支付宝/微信/火车/预算/签证等）、2 条行程规划（10天/2周）、3 篇小众中国攻略、3 篇城市对比文章，合计 76 个内容页面。基于 Google/YouTube 搜索热词数据驱动内容规划，部署在 Cloudflare Pages。
+</td>
+<td width="50%" valign="top">
 
-[![GitHub](https://img.shields.io/badge/仓库-181717?logo=github&logoColor=white)](https://github.com/zhangluka/china-travel-guide)
-[![网站](https://img.shields.io/badge/chinabound.online-10B981?logo=globe&logoColor=white)](https://chinabound.online)
+**Engineering Practice**
 
----
+解决真实问题的工程实践。
 
-## 💡 我相信的几件事
+[html-screenshot-extension](https://github.com/zhangluka/html-screenshot-extension) · [terminal-kitty](https://github.com/zhangluka/terminal-kitty) · [china-travel-guide](https://github.com/zhangluka/china-travel-guide)
 
-| 信念 | 说明 |
-|------|------|
-| **AI 的价值在场景，不在技术** | 再强的模型，找不到合适的应用场景也是白搭 |
-| **好的 AI 应用是设计出来的** | Prompt 工程解决单次问题，流程设计解决系统问题 |
-| **从"能用"到"好用"隔着一百个细节** | Demo 展示可能性，生产环境考验可靠性 |
+</td>
+</tr>
+</table>
 
----
+<br>
 
-## 📮 找到我
+<div align="center">
+<img src="https://img.shields.io/badge/-%20-141413?style=flat&labelColor=141413" height="1" width="600">
+</div>
 
-[推特](https://x.com/grainrain_young) · [邮件](zhangluka@gmail.com)
+<br>
 
----
+<div align="center">
 
-<p align="center">
-  <i>如果你也在探索 AI 的真实应用场景，不管是代码生成、内容创作还是别的什么，欢迎来交流。</i>
-</p>
+> 好的 AI 应用不是调出来的，是设计出来的。
+
+𝕏 [@grainrain_young](https://x.com/grainrain_young) · YNWA ♥️
+
+</div>
