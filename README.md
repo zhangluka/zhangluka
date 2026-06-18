@@ -1,13 +1,13 @@
 <div align="center" style="font-family: 'Geist Sans', system-ui, -apple-system, sans-serif;">
 
-<!-- 主标题：Anthropic 机构感 -->
-<h1 style="font-size: 3.5rem; font-weight: 700; letter-spacing: -0.03em; margin: 0; color: #141413; line-height: 1.15;">
-Bobby
-</h1>
+<!-- Typing SVG 动画 -->
+<p>
+  <img src="https://readme-typing-svg.demolab.com?font=Geist+Sans&weight=700&size=48&pause=1000&color=141413&center=true&vCenter=true&width=500&height=80&lines=Bobby" alt="Bobby">
+</p>
 
-<!-- 一句话定位 -->
-<p style="font-size: 1.25rem; color: #5e5d59; margin: 0.75rem 0 0; font-weight: 400; line-height: 1.6;">
-Building AI tools that actually work.
+<!-- 一句话定位：打字动画 -->
+<p>
+  <img src="https://readme-typing-svg.demolab.com?font=Geist+Sans&weight=400&size=20&pause=1500&color=5e5d59&center=true&vCenter=true&width=500&height=40&lines=Building+AI+tools+that+actually+work." alt="Building AI tools that actually work.">
 </p>
 
 <!-- 社交链接 -->
